@@ -1,0 +1,86 @@
+Test cases are sorted according to their possible business impact:
+
+Dashboard:
+1.	Tap on a category to check the calculator appears or not. In calculator following items need to verify:
+a.	Verify add expense icons adds the amount of expense to that category.
+b.	Verify expense is deducted from right source account.
+c.	Checking mathematical functionalities of the calculator.
+d.	Checking the date in each expanse category according to the right time zone.
+e.	Validation checking for input fields.
+f.	Negative value checking for input fields
+g.	Verify amount is not added to any category if category is not selected.
+h.	Clear entry button functionality in amount input field
+i.	Checking Back to dashboard link
+2.	Check the functionality of ‘Expense’ and ‘Income’ button.
+3.	Choosing Category while adding ‘Expense’ and ‘Income’, adds the amount to right category.
+4.	Verify the Balance amount according to incomes and expenses.
+5.	Check the breakdown of amount in Balance.
+6.	Check the percentage of expenses according to the expanse value. 
+7.	Add categories other that the default category navigates to the page of Pro features.
+8.	Verify the purchase functionality in the Pro features page.
+9.	Check the functionality of “Allow showing Ads” link
+10.	Verify overall UI with the specification
+11.	Long tap to a category shows the category name
+12.	Check the access permission before installing the app.
+
+Bug: Clicking on “Allow showing Ads” allows user to add unlimited category, which is a feature of Pro version.
+
+Transfer:
+1.	Transfer amount from one account to another account and verify the transfer.
+2.	Select date to verify the transfer has been took place on selected date.
+3.	Validate the input fields.
+4.	Validate the boundary values for the amount field.
+5.	Transfer more amount to another account than the initial amount.
+
+Top Right menu:
+1.	Categories:
+a.	Check edit category and verify the edited value.
+b.	Add new category and verify the newly created category is available in the list of category with the right icon.
+c.	Delete the Category should remove the category form list.
+d.	Validate input field.
+
+2.	Accounts:
+a.	Add new account
+i.	Check enabling/disabling “Included in the balance” feature reflects the amount in dashboard.
+ii.	Check “Account currency” and “Currency rate” redirects to Pro feature page.
+iii.	Verify initial amount according to initial date.
+iv.	Verify carryover feature by adding initial amount in past date.
+v.	Verify the transfer functionality as previous cases.
+vi.	Check Merge two accounts.
+vii.	Validate input field.
+viii.	Try to add account without icon
+ix.	Check the type of input value in “Initial account balance”
+x.	Check boundary value of initial balance 
+xi.	Delete an account
+xii.	Try to merge account when there is only one account
+b.	Delete all default account
+c.	Try to transfer when there is no account.
+
+3.	Currencies:
+a.	Check it should navigate to Pro features page and works after purchase.
+
+4.	Settings:
+a.	Check the Budget mode which should be reflated in dashboard.
+b.	Validate the input filed of Monthly Budget amount.
+c.	“Carry Over”, “Dark theme” will be available on purchase.
+d.	Check Passcode Protection, Dropbox Sync, Google drive Sync redirects to Pro feature page and works after purchase.
+e.	Change preferred language and check throughout the application.
+f.	Change the “Currency” and check throughout the application.
+g.	Change the “First day of the week”, “First day of the month” to check first day is set accordingly.
+h.	Check export to file generates a valid CSV file.
+i.	Check Create data backup.
+j.	Check Restore data and verify the restored values.
+k.	Check Clear Data in device, Dropbox and Google drive.
+l.	Check Review, About Monefy, Privacy Policy link.
+
+Top Left menu:
+1.	Check the Monthly Budget amount changes according to Day, Week, Month, Year and All.
+2.	Pick a specific date to verify the amounts in that day.
+3.	Check the amount, expenses and deposits when “All accounts” is selected.
+4.	Verify the amounts according to the selected account.
+5.	Check the amounts according to Day, Week, Month, Year and All.
+
+
+
+
+

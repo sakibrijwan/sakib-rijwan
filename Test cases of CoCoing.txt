@@ -1,0 +1,41 @@
+Test cases for CoCoin app testing
+
+Test cases:
+1.	Sign in with valid password
+2.	Add expenses in correct category and verify the amount is added to that category
+3.	Check expenses according to date
+4.	Use the color code for upper limit of the expense
+5.	Limit monthly expense
+6.	Sort the expense type
+7.	Verify the pie chat according to the expenses
+8.	Verify the bar chart according to the expenses
+9.	Change password feature
+
+Possibilities of automating proposed test cases:
+Unit testing level test cases:
+1.	Sign in with valid password
+2.	Add expenses in correct category and verify the amount is added to that category
+3.	Check expenses according to date
+Pros: 
+Automating these cases in Unit testing level should confirm that the basic functionality of the app is working.
+Cons:
+Unit testing of this cases would take more time and development time will increase. 
+
+Integration testing level test cases:
+1.	Limit monthly expense
+2.	Sort the expense type
+3.	Verify the pie chat according to the expenses
+4.	Verify the bar chart according to the expenses
+5.	Change password feature
+
+Pros:
+These cases would not affect the basic functionality but should be tested as a whole for better user experience.
+Cons:
+Date related testing would not be realistic as to view past data, tester need to reset the system date.
+
+System testing level cases:
+1.	Use the color code for upper limit of the expense
+Pros:
+This case also would not affect the basic functionality and would be tested in system level to verify the final build.
+Cons:
+There may be chance of failing, in that case the release time may be delayed
